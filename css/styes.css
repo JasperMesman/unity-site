@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.my-navbar {
+	
+	background-color: #0000fe;
+}
+
+.my-header {
+	background-image: url("../images/bg1.jpg");
+	background-size: cover;
+	background-position: center
+	
+}
+
+.jutitle {
+	
+	color: #01ff02
+}
