@@ -16,6 +16,7 @@ font-family: 'Josefin Sans', sans-serif;*/
 
 .my-navbar {
 	background-color: #0000fe;
+	font-size: 25px;
 }
 
 .my-dropdown {
@@ -26,6 +27,7 @@ font-family: 'Josefin Sans', sans-serif;*/
 	background-color: #0000fe;
 	border-color: #01ff02;
 	color: white;
+	font-size: 25px;
 }
 
 .my-header {
