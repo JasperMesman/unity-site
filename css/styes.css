@@ -79,4 +79,14 @@ font-family: 'Varela Round', sans-serif;*/
 	font-style: italic;
 }
 
+.table {
+	table-layout: fixed ;
+ 	width: 100% ;
+}
 
+.buy {
+	background-color: #0000fe;
+	border-color: #01ff02;
+	color: white;
+	font-size: 15px;
+}
