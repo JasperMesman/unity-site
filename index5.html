@@ -22,14 +22,14 @@
   <!-- Navigation bar -->
 	
 		<nav class="navbar navbar-expand-lg navbar-dark my-navbar">
-  <a class="navbar-brand" href="#"><img alt="Younity" src="images/logonew.jpg" height="50" ></a>
+  <a class="navbar-brand" href="index.html"><img alt="Younity" src="images/logonew.jpg" height="50" ></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
 		  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
@@ -57,14 +57,23 @@
       </li>
 
     </ul>
-	  <li class="nav-item">
-<a class="btn btn-primary" href="index5.html" role="button">Contact</a>
-
-    </li>
+	  <ul class="nav-item active">
+      <a class="btn btn-primary" href="index5.html" role="button">Contact</a>
+    </ul>
   </div>
 </nav>
 
-	
+	<header> 
+  
+  <div class="jumbotron my-header">
+    <h1 class="display-4 jutitle header1"><strong>Younited</strong></h1>
+      <p class="lead jutitle">Our mission, <br> our services and our event gallery.</p>
+    <hr class="my-4">
+      <p>&nbsp;</p>
+    <a class="btn btn-primary btn-lg" href="https://www.instagram.com/unity.online/" role="button">Check out our Instagram</a>
+  </div>
+
+  </header>
 
 
 <div class="jumbotron jumbotron-fluid textblock">
@@ -80,8 +89,7 @@
     <!--Section heading-->
     
     <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
+    <p class="lead text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
 	
 
     <div class="row contact">
@@ -96,8 +104,8 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
+                            <label for="name" class="lead">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">                            
                         </div>
                     </div>
                     <!--Grid column-->
@@ -105,8 +113,8 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
+                            <label for="email" class="lead">Your email</label>
                             <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -118,8 +126,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
+                            <label for="email" class="lead">Subject</label>
                             <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
                         </div>
                     </div>
                 </div>
@@ -132,8 +140,8 @@
                     <div class="col-md-12">
 
                         <div class="md-form">
+                            <label for="message" class="lead">Your message</label>
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
                         </div>
 
                     </div>
@@ -141,7 +149,7 @@
                 <!--Grid row-->
 
             </form>
-
+</br>
             <div class="text-center text-md-left">
                 <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
